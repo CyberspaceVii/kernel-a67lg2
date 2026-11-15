@@ -1,0 +1,7 @@
+id=susfs_config_a67lg2
+name=SUSFS Config
+version=v0.1
+versionCode=1
+author=CyberspaceVII
+banner=https://cyberspace7.org/assets/ksun/imgs/susfs-config-a67lg2.png
+description=Applies susfs at boot: spoofs the /proc/bootconfig lock-state to green/locked (what detectors actually read; getprop is already factory-green), hides /data/adb from denylisted apps, and quiets su-domain avc logs. Pairs with the built-in susfs v2.3.0 in the A67L G2 Kernel.
